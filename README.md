@@ -1,10 +1,10 @@
-# ✈️ AeroOps — Airport Ground Operations Management System
+#  AeroOps — Airport Ground Operations Management System
 
 A full-stack production-ready web application for managing airport ground operations: flights, gates, runways, baggage, refueling, maintenance, and staff.
 
 ---
 
-## 🏗️ Tech Stack
+##  Tech Stack
 
 | Layer    | Technology |
 |----------|-----------|
@@ -16,7 +16,7 @@ A full-stack production-ready web application for managing airport ground operat
 
 ---
 
-## 🚀 Quick Start
+##  Quick Start
 
 ### Docker (full stack with MySQL)
 
@@ -30,7 +30,7 @@ Note: Docker uses the `prod` profile and MySQL. Default demo users are not auto-
 
 ---
 
-## 🔐 Demo Credentials
+##  Demo Credentials
 
 These are for the local dev profile. If you run the app through Docker, create an account from the Register tab first.
 
@@ -42,7 +42,7 @@ These are for the local dev profile. If you run the app through Docker, create a
 
 ---
 
-## 📡 API Endpoints
+##  API Endpoints
 
 | Method | Endpoint | Description |
 |--------|----------|-------------|
@@ -67,7 +67,7 @@ These are for the local dev profile. If you run the app through Docker, create a
 
 ---
 
-## ⚡ Key Features
+##  Key Features
 
 - **Real-time Dashboard** — Live stats, active flights, gate availability grid, critical alerts
 - **Conflict Detection** — Gate and runway double-booking prevention at the service layer
@@ -80,7 +80,7 @@ These are for the local dev profile. If you run the app through Docker, create a
 
 ---
 
-## 🗂️ Project Structure
+##  Project Structure
 
 ```
 airport-ops/
@@ -110,7 +110,7 @@ airport-ops/
 
 ---
 
-## 🔧 MySQL Production Setup
+##  MySQL Production Setup
 
 ```sql
 CREATE DATABASE airport_ops CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;
